@@ -1,6 +1,5 @@
 import { ImageResponse } from "next/og";
-export const alt =
-  "James Hartley — Software Engineer. Built for the real world.";
+export const alt = "James Hartley — Software Developer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export default function OpenGraphImage() {
@@ -37,8 +36,8 @@ export default function OpenGraphImage() {
           lineHeight: 1.05,
         }}
       >
-        <span>Built for the</span>
-        <span style={{ color: "#c4e88a" }}>real world.</span>
+        <span>James</span>
+        <span style={{ color: "#c4e88a" }}>Hartley</span>
       </div>
       <div
         style={{

@@ -5,9 +5,9 @@ import { GoArrowUpRight } from "react-icons/go";
 import data from "../../data.json";
 import ProjectsComponent from "./projects";
 export const metadata = {
-  title: "Projects & Experiments",
+  title: "Projects",
   description:
-    "Explore James Hartley's games, web projects, and experiments, with source code, project notes, and playable prototypes.",
+    "James Hartley's Unity games and JavaScript/PHP projects, with source code, builds, and development notes.",
   alternates: { canonical: "/projects" },
 };
 export default async function ProjectsPage({ searchParams }) {
@@ -16,16 +16,11 @@ export default async function ProjectsPage({ searchParams }) {
     <main id="main-content">
       <section className="wrap page-section">
         <div className="page-heading">
-          <p className="eyebrow">The work / Projects & experiments</p>
-          <h1>
-            A few things
-            <br />
-            I’ve <span>built.</span>
-          </h1>
+          <p className="eyebrow">Games & web applications</p>
+          <h1><span>Projects</span></h1>
           <p>
-            Games, web projects, and experiments in making ideas tangible.
-            Professional C# / .NET work is covered in my experience; these are
-            projects I can share.
+            Personal projects built with Unity, C#, JavaScript, and PHP.
+            My professional C#/.NET work is listed on the résumé.
           </p>
         </div>
         {customUsername ? (
@@ -44,7 +39,7 @@ export default async function ProjectsPage({ searchParams }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          More experiments on GitHub <GoArrowUpRight />
+          All repositories on GitHub <GoArrowUpRight />
         </a>
       </section>
       <ContactBlock />

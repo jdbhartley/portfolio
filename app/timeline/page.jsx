@@ -4,22 +4,18 @@ import { GoArrowUpRight } from "react-icons/go";
 export const metadata = {
   title: "Career Timeline",
   description:
-    "From simulations programming and hands-on technical work to software development: James Hartley's career journey.",
+    "James Hartley's education and work history in software development, technical support, and field service.",
   alternates: { canonical: "/timeline" },
 };
 export default function TimelinePage() {
   return (
     <main id="main-content" className="wrap page-section">
       <div className="page-heading">
-        <p className="eyebrow">The journey / Career timeline</p>
-        <h1>
-          Always learning.
-          <br />
-          <span>Always building.</span>
-        </h1>
+        <p className="eyebrow">Education & work history</p>
+        <h1>Career <span>timeline</span></h1>
         <p>
-          A path through technical work, customer support, team leadership, and
-          software engineering. Every step adds a different perspective.
+          My roles in technical support, team leadership, and software development,
+          along with education and certifications.
         </p>
         <Link className="text-link" href="/resume">
           View the résumé <GoArrowUpRight />

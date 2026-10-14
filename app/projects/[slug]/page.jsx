@@ -84,16 +84,16 @@ export default async function ProjectPage({ params }) {
           <p>{project.status}</p>
         </aside>
         <div>
-          <h2>The idea</h2>
+          <h2>Overview</h2>
           <p>{project.overview}</p>
-          <h2>Inside the project</h2>
+          <h2>Features</h2>
           <ul>
             {project.details.map((detail) => (
               <li key={detail}>{detail}</li>
             ))}
           </ul>
           <div className="project-note">
-            <p className="eyebrow">A note on this project</p>
+            <p className="eyebrow">Project status</p>
             <p>{project.note}</p>
           </div>
         </div>

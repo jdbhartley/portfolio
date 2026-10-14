@@ -12,41 +12,41 @@ export default function Home() {
       <section className="hero wrap" aria-labelledby="intro-title">
         <div className="hero-copy">
           <p className="eyebrow">
-            <span className="status-dot" /> James Hartley / Software engineer
+            <span className="status-dot" /> Software developer
           </p>
           <h1 id="intro-title">
-            Built for the
+            James
             <br />
-            <span>real world.</span>
+            <span>Hartley</span>
           </h1>
           <p className="hero-description">
-            I turn complex problems into dependable software. From C# and .NET
-            systems to thoughtful interfaces and a little game development.
+            I work with C#/.NET, React, TypeScript, and PostgreSQL. My background
+            includes application development, internal tools, and technical
+            support. I also make games in Unity.
           </p>
           <div className="button-row">
             <a href="#work" className="button button-primary">
-              Explore my work <GoArrowDown />
+              View projects <GoArrowDown />
             </a>
             <Link href="/resume" className="text-link">
               View résumé <GoArrowUpRight />
             </Link>
           </div>
           <p className="hero-location">
-            <span className="location-mark">↗</span> Based in {data.location}{" "}
-            <span className="muted">/</span> Building with intention
+            <span className="location-mark">↗</span> {data.location}
           </p>
         </div>
         <SystemSketch />
         <div className="hero-bottom">
-          <span>Practical thinking. Thoughtful execution.</span>
+          <span>Full-stack development / Internal tools / Unity games</span>
           <a href="#work">
-            Scroll to explore <GoArrowDown />
+            Projects <GoArrowDown />
           </a>
         </div>
       </section>
       <div className="stack-strip">
         <div className="wrap stack-inner">
-          <span className="eyebrow">My everyday toolkit</span>
+          <span className="eyebrow">Technologies</span>
           <div>
             {["C#", ".NET", "TypeScript", "React", "PostgreSQL", "Unity"].map(
               (skill) => (
@@ -59,17 +59,14 @@ export default function Home() {
       <section id="work" className="section wrap" aria-labelledby="work-title">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">01 / Selected work</p>
-            <h2 id="work-title">
-              A practical mind.
-              <br />A playful side.
-            </h2>
+            <p className="eyebrow">01 / Projects</p>
+            <h2 id="work-title">Games & web projects</h2>
           </div>
           <div className="section-intro">
             <p>
-              My day job has been about reliable systems. My personal projects
-              explore interaction, creativity, and the satisfaction of making
-              something work.
+              Unity games and earlier JavaScript/PHP projects. Each project
+              includes source code or builds, screenshots, and development notes
+              where available.
             </p>
             <Link className="text-link" href="/projects">
               All projects <GoArrowRight />
@@ -82,10 +79,10 @@ export default function Home() {
           ))}
         </div>
         <Link href="/projects/tafl" className="project-teaser">
-          <span className="eyebrow">Also in the archive</span>
+          <span className="eyebrow">Another project</span>
           <span>
             Tafl: A King Pass{" "}
-            <small>Strategy, systems, and lessons learned</small>
+            <small>Unity adaptation of the Viking board game Hnefatafl</small>
           </span>
           <GoArrowUpRight />
         </Link>
@@ -93,18 +90,14 @@ export default function Home() {
       <section className="experience-band" aria-labelledby="experience-title">
         <div className="section wrap experience-layout">
           <div>
-            <p className="eyebrow">02 / In production</p>
-            <h2 id="experience-title">
-              Software is about
-              <br />
-              <span className="accent">people, too.</span>
-            </h2>
+            <p className="eyebrow">02 / Experience</p>
+            <h2 id="experience-title">Work at YAPI</h2>
             <p className="section-description">
-              My path into engineering started close to the people using the
-              software. That perspective still shapes how I build.
+              I worked on C#/.NET applications, built internal tools, and led a
+              seven-person technical support team.
             </p>
             <Link href="/resume" className="text-link">
-              The full experience <GoArrowUpRight />
+              View résumé <GoArrowUpRight />
             </Link>
           </div>
           <div className="experience-list">
@@ -139,28 +132,24 @@ export default function Home() {
         aria-labelledby="about-title"
       >
         <div>
-          <p className="eyebrow">03 / A bit about me</p>
-          <h2 id="about-title">Curiosity built in.</h2>
+          <p className="eyebrow">03 / About</p>
+          <h2 id="about-title">About me</h2>
         </div>
         <div>
           <p className="about-lead">
-            I like understanding how things work.
-            <br />
-            Then making them work better.
+            I moved from technical support into software development at YAPI.
           </p>
           <p>
-            That thread runs through my career: hands-on technical work, helping
-            customers, leading a support team, and building software. I care
-            about the details that make a system easier to use and easier to
-            maintain.
+            My work has included maintaining legacy C# applications, building
+            backend services, and adding features in React and TypeScript.
+            Before that, I worked in technical consulting and field service.
           </p>
           <p>
-            My background in simulations programming also gives me a place to
-            experiment: games, interaction, and ideas that are simply fun to
-            build.
+            I studied simulations programming at The Art Institute. My personal
+            projects include Unity games for mobile and the browser.
           </p>
           <Link className="text-link" href="/timeline">
-            Follow the journey <GoArrowUpRight />
+            Career timeline <GoArrowUpRight />
           </Link>
         </div>
       </section>

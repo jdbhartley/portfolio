@@ -5,21 +5,16 @@ export function ContactBlock() {
     <section className="contact-band" aria-labelledby="contact-title">
       <div className="wrap contact-inner">
         <div>
-          <p className="eyebrow">Have something in mind?</p>
-          <h2 id="contact-title">
-            Let’s build
-            <br />
-            something useful<span>.</span>
-          </h2>
+          <p className="eyebrow">Contact</p>
+          <h2 id="contact-title">Get in touch</h2>
         </div>
         <div>
           <p>
-            Have a problem to solve, a role to discuss,
-            <br className="desktop-break" /> or an idea worth exploring? I’d
-            like to hear it.
+            For software roles or project inquiries,
+            <br className="desktop-break" /> email me or message me on LinkedIn.
           </p>
           <a className="button button-primary" href={`mailto:${data.email}`}>
-            Say hello <GoArrowUpRight />
+            Email me <GoArrowUpRight />
           </a>
         </div>
       </div>

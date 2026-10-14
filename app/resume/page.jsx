@@ -12,12 +12,8 @@ export default function ResumePage() {
   return (
     <main id="main-content" className="wrap page-section resume-page">
       <div className="page-heading">
-        <p className="eyebrow">The experience / Résumé</p>
-        <h1>
-          A builder.
-          <br />
-          <span>A problem solver.</span>
-        </h1>
+        <p className="eyebrow">James Hartley / Software developer</p>
+        <h1><span>Résumé</span></h1>
         <p>{data.summary}</p>
         <div className="button-row">
           <PrintButton />
@@ -40,7 +36,7 @@ export default function ResumePage() {
       <div className="resume-layout">
         <aside>
           <section>
-            <h2 className="eyebrow">Core toolkit</h2>
+            <h2 className="eyebrow">Technologies</h2>
             <div className="tag-row">
               {data.resume.skills.map((skill) => (
                 <span key={skill}>{skill}</span>
@@ -48,7 +44,7 @@ export default function ResumePage() {
             </div>
           </section>
           <section>
-            <h2 className="eyebrow">Education & learning</h2>
+            <h2 className="eyebrow">Education</h2>
             {data.resume.education.map((education) => (
               <p key={education}>{education}</p>
             ))}

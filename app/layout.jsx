@@ -26,7 +26,7 @@ export const metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: `${displayName} — Built for the real world.`,
+        alt: `${displayName} — Software Developer`,
       },
     ],
   },

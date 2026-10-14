@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { GoArrowUpRight, GoX } from "react-icons/go";
 import { FaBars } from "react-icons/fa";
 const links = [
-  { href: "/projects", label: "Work" },
+  { href: "/projects", label: "Projects" },
   { href: "/resume", label: "Experience" },
   { href: "/#about", label: "About" },
 ];
@@ -69,7 +69,7 @@ export function Navigation() {
             aria-current={pathname === "/contact" ? "page" : undefined}
             onClick={() => setOpen(false)}
           >
-            Let’s talk <GoArrowUpRight />
+            Contact <GoArrowUpRight />
           </Link>
         </nav>
       </div>

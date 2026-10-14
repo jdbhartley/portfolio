@@ -8,7 +8,7 @@ export function Footer() {
         <Link href="/" className="footer-name">
           James Hartley<span>.</span>
         </Link>
-        <p>Thoughtfully built. Always evolving.</p>
+        <p>{data.location}</p>
       </div>
       <nav aria-label="Social links">
         <a

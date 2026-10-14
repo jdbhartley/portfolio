@@ -13,16 +13,11 @@ export default function ContactPage() {
     <main id="main-content" className="wrap page-section contact-page">
       <div className="page-heading">
         <p className="eyebrow">
-          <span className="status-dot" /> A conversation starts here
+          <span className="status-dot" /> James Hartley
         </p>
-        <h1>
-          Good things start
-          <br />
-          with <span>hello.</span>
-        </h1>
+        <h1><span>Contact</span></h1>
         <p>
-          Have a software problem, an interesting opportunity, or a project in
-          mind? Tell me what you’re thinking.
+          Email me about software roles or projects, or message me on LinkedIn.
         </p>
       </div>
       <div className="contact-email">
@@ -37,7 +32,7 @@ export default function ContactPage() {
           <FaLinkedin />
           <div>
             <h2>LinkedIn</h2>
-            <p>Experience, connections, and opportunities.</p>
+            <p>linkedin.com/in/jdbhartley</p>
           </div>
           <GoArrowUpRight />
         </a>
@@ -49,7 +44,7 @@ export default function ContactPage() {
           <FaGithub />
           <div>
             <h2>GitHub</h2>
-            <p>Projects, experiments, and source code.</p>
+            <p>github.com/jdbhartley</p>
           </div>
           <GoArrowUpRight />
         </a>
